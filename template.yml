@@ -11,8 +11,7 @@ Resources:
         "--TempDir": "s3://codepipelinebucket-pr/temp/"
       GlueVersion: "2.0"
       WorkerType: G.1X
-      NumberOfWorkers: 2
-      
+      NumberOfWorkers: 2  
   GlueServiceRole:
     Type: AWS::IAM::Role
     Properties:
