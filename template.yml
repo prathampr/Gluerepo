@@ -12,7 +12,7 @@ Resources:
       GlueVersion: "2.0"
       WorkerType: G.1X
       NumberOfWorkers: 2
-
+      
   GlueServiceRole:
     Type: AWS::IAM::Role
     Properties:
